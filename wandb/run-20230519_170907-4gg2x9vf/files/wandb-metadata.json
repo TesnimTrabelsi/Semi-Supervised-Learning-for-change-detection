@@ -1,0 +1,230 @@
+{
+    "os": "Linux-5.15.0-71-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2023-05-19T15:09:08.825515",
+    "startedAt": "2023-05-19T15:09:07.357329",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "dtsiamese_ssl",
+        "-o",
+        "/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7AWS/output",
+        "-d",
+        "/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7AWS"
+    ],
+    "state": "running",
+    "program": "train_supervised.py",
+    "codePath": "train_supervised.py",
+    "host": "lambda-isi",
+    "username": "antonimestre",
+    "executable": "/home/antonimestre/anaconda3/bin/python",
+    "cpu_count": 18,
+    "cpu_count_logical": 36,
+    "cpu_freq": {
+        "current": 1387.7988611111114,
+        "min": 1200.0,
+        "max": 4633.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.185,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.104,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.136,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.133,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.03,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.098,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.365,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.014,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.073,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.049,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.055,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4522.286,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.178,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.034,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.332,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.007,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.192,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.059,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1201.613,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.264,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.022,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.571,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.384,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.342,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.169,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.25,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.272,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.446,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.171,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4530.612,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.32,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.884,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.442,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.028,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.56,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.32,
+            "min": 1200.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "total": 1832.2072448730469,
+        "used": 1437.5814895629883
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51050315776
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51047038976
+        }
+    ],
+    "memory": {
+        "total": 251.39273834228516
+    }
+}

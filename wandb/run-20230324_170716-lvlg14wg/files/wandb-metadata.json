@@ -1,0 +1,230 @@
+{
+    "os": "Linux-5.15.0-67-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2023-03-24T16:07:17.579063",
+    "startedAt": "2023-03-24T16:07:16.195316",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-c",
+        "dtsiamese_ssl_test",
+        "-o",
+        "/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7/output",
+        "-d",
+        "/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7"
+    ],
+    "state": "running",
+    "program": "train_semisupervised_dualtask.py",
+    "codePath": "train_semisupervised_dualtask.py",
+    "host": "lambda-isi",
+    "username": "antonimestre",
+    "executable": "/home/antonimestre/anaconda3/bin/python",
+    "cpu_count": 18,
+    "cpu_count_logical": 36,
+    "cpu_freq": {
+        "current": 1377.3334999999997,
+        "min": 1200.0,
+        "max": 4633.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4516.186,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.205,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.12,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.794,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.064,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.146,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.021,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.052,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.009,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.026,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.735,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.04,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.019,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.048,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.05,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.028,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.021,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.126,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4574.692,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1202.462,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.09,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.02,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.037,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1202.139,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.14,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.548,
+            "min": 1200.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1200.224,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.194,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.566,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.035,
+            "min": 1200.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1200.454,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.982,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1201.782,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.575,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.38,
+            "min": 1200.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1200.411,
+            "min": 1200.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "total": 1832.2072448730469,
+        "used": 1471.664421081543
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51050315776
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51047038976
+        }
+    ],
+    "memory": {
+        "total": 251.3927459716797
+    }
+}

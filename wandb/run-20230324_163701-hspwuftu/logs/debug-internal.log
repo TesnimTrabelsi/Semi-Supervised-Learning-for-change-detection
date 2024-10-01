@@ -1,0 +1,176 @@
+2023-03-24 16:37:01,529 INFO    StreamThr :15172 [internal.py:wandb_internal():87] W&B internal server running at pid: 15172, started at: 2023-03-24 16:37:01.528412
+2023-03-24 16:37:01,532 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: status
+2023-03-24 16:37:01,535 INFO    WriterThread:15172 [datastore.py:open_for_write():85] open: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/run-hspwuftu.wandb
+2023-03-24 16:37:01,536 DEBUG   SenderThread:15172 [sender.py:send():336] send: header
+2023-03-24 16:37:01,537 DEBUG   SenderThread:15172 [sender.py:send():336] send: run
+2023-03-24 16:37:02,177 INFO    SenderThread:15172 [dir_watcher.py:__init__():219] watching files in: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files
+2023-03-24 16:37:02,177 INFO    SenderThread:15172 [sender.py:_start_run_threads():1078] run started: hspwuftu with start time 1679672221.525973
+2023-03-24 16:37:02,177 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: summary_record
+2023-03-24 16:37:02,177 INFO    SenderThread:15172 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-24 16:37:02,184 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: check_version
+2023-03-24 16:37:02,185 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: check_version
+2023-03-24 16:37:02,259 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: run_start
+2023-03-24 16:37:02,266 DEBUG   HandlerThread:15172 [system_info.py:__init__():31] System info init
+2023-03-24 16:37:02,266 DEBUG   HandlerThread:15172 [system_info.py:__init__():46] System info init done
+2023-03-24 16:37:02,266 INFO    HandlerThread:15172 [system_monitor.py:start():183] Starting system monitor
+2023-03-24 16:37:02,266 INFO    SystemMonitor:15172 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-24 16:37:02,266 INFO    HandlerThread:15172 [system_monitor.py:probe():204] Collecting system info
+2023-03-24 16:37:02,267 INFO    SystemMonitor:15172 [interfaces.py:start():187] Started cpu monitoring
+2023-03-24 16:37:02,268 INFO    SystemMonitor:15172 [interfaces.py:start():187] Started disk monitoring
+2023-03-24 16:37:02,270 INFO    SystemMonitor:15172 [interfaces.py:start():187] Started gpu monitoring
+2023-03-24 16:37:02,272 INFO    SystemMonitor:15172 [interfaces.py:start():187] Started memory monitoring
+2023-03-24 16:37:02,274 INFO    SystemMonitor:15172 [interfaces.py:start():187] Started network monitoring
+2023-03-24 16:37:03,006 DEBUG   HandlerThread:15172 [system_info.py:probe():195] Probing system
+2023-03-24 16:37:03,014 DEBUG   HandlerThread:15172 [git.py:repo():40] git repository is invalid
+2023-03-24 16:37:03,014 DEBUG   HandlerThread:15172 [system_info.py:probe():240] Probing system done
+2023-03-24 16:37:03,014 DEBUG   HandlerThread:15172 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-67-generic-x86_64-with-glibc2.10', 'python': '3.8.8', 'heartbeatAt': '2023-03-24T15:37:03.006794', 'startedAt': '2023-03-24T15:37:01.515678', 'docker': None, 'cuda': None, 'args': ('-c', 'dtsiamese_ssl_test', '-o', '/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7/output', '-d', '/home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7'), 'state': 'running', 'program': 'train_semisupervised_dualtask.py', 'codePath': 'train_semisupervised_dualtask.py', 'host': 'lambda-isi', 'username': 'antonimestre', 'executable': '/home/antonimestre/anaconda3/bin/python', 'cpu_count': 18, 'cpu_count_logical': 36, 'cpu_freq': {'current': 1378.8925277777782, 'min': 1200.0, 'max': 4633.333333333333}, 'cpu_freq_per_core': [{'current': 1200.242, 'min': 1200.0, 'max': 4800.0}, {'current': 1200.161, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.093, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.032, 'min': 1200.0, 'max': 4600.0}, {'current': 1201.038, 'min': 1200.0, 'max': 4600.0}, {'current': 1201.27, 'min': 1200.0, 'max': 4600.0}, {'current': 1202.125, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.03, 'min': 1200.0, 'max': 4700.0}, {'current': 1200.266, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.127, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.193, 'min': 1200.0, 'max': 4600.0}, {'current': 4497.182, 'min': 1200.0, 'max': 4800.0}, {'current': 1200.254, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.058, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.0, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.381, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.426, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.891, 'min': 1200.0, 'max': 4700.0}, {'current': 1202.371, 'min': 1200.0, 'max': 4800.0}, {'current': 1200.891, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.2, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.66, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.007, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.738, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.062, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.507, 'min': 1200.0, 'max': 4700.0}, {'current': 1200.832, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.229, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.109, 'min': 1200.0, 'max': 4600.0}, {'current': 4361.488, 'min': 1200.0, 'max': 4800.0}, {'current': 1200.704, 'min': 1200.0, 'max': 4600.0}, {'current': 1201.79, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.483, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.545, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.919, 'min': 1200.0, 'max': 4600.0}, {'current': 1200.432, 'min': 1200.0, 'max': 4700.0}], 'disk': {'total': 1832.2072448730469, 'used': 1471.6543197631836}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51047038976}], 'memory': {'total': 251.3927459716797}}
+2023-03-24 16:37:03,014 INFO    HandlerThread:15172 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-24 16:37:03,014 INFO    HandlerThread:15172 [system_monitor.py:probe():217] Publishing system info
+2023-03-24 16:37:03,014 DEBUG   HandlerThread:15172 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-24 16:37:03,016 DEBUG   HandlerThread:15172 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-24 16:37:03,016 DEBUG   HandlerThread:15172 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-24 16:37:03,181 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_created():278] file/dir created: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/requirements.txt
+2023-03-24 16:37:03,182 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_created():278] file/dir created: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-summary.json
+2023-03-24 16:37:03,182 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_created():278] file/dir created: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/conda-environment.yaml
+2023-03-24 16:37:06,970 DEBUG   HandlerThread:15172 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-24 16:37:06,971 INFO    HandlerThread:15172 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-24 16:37:06,978 DEBUG   SenderThread:15172 [sender.py:send():336] send: files
+2023-03-24 16:37:06,979 INFO    SenderThread:15172 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-24 16:37:06,979 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: status_report
+2023-03-24 16:37:06,987 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-24 16:37:06,988 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: stop_status
+2023-03-24 16:37:07,174 DEBUG   SenderThread:15172 [sender.py:send():336] send: telemetry
+2023-03-24 16:37:07,183 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/conda-environment.yaml
+2023-03-24 16:37:07,183 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_created():278] file/dir created: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-metadata.json
+2023-03-24 16:37:07,184 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_created():278] file/dir created: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/output.log
+2023-03-24 16:37:07,604 INFO    wandb-upload_0:15172 [upload_job.py:push():138] Uploaded file /tmp/tmpj7ds80x8wandb/zw89mypu-wandb-metadata.json
+2023-03-24 16:37:08,409 DEBUG   SenderThread:15172 [sender.py:send():336] send: exit
+2023-03-24 16:37:08,409 INFO    SenderThread:15172 [sender.py:send_exit():559] handling exit code: 1
+2023-03-24 16:37:08,409 INFO    SenderThread:15172 [sender.py:send_exit():561] handling runtime: 6
+2023-03-24 16:37:08,411 INFO    SenderThread:15172 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-24 16:37:08,411 INFO    SenderThread:15172 [sender.py:send_exit():567] send defer
+2023-03-24 16:37:08,411 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,411 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-24 16:37:08,411 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,411 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-24 16:37:08,411 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 1
+2023-03-24 16:37:08,411 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,411 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-24 16:37:08,412 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,412 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-24 16:37:08,412 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 2
+2023-03-24 16:37:08,412 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,412 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-24 16:37:08,412 INFO    HandlerThread:15172 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-24 16:37:08,412 DEBUG   SystemMonitor:15172 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-24 16:37:08,412 DEBUG   SystemMonitor:15172 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-24 16:37:08,412 DEBUG   SystemMonitor:15172 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-24 16:37:08,413 INFO    HandlerThread:15172 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-24 16:37:08,413 INFO    HandlerThread:15172 [interfaces.py:finish():199] Joined disk monitor
+2023-03-24 16:37:08,486 INFO    HandlerThread:15172 [interfaces.py:finish():199] Joined gpu monitor
+2023-03-24 16:37:08,486 INFO    HandlerThread:15172 [interfaces.py:finish():199] Joined memory monitor
+2023-03-24 16:37:08,486 INFO    HandlerThread:15172 [interfaces.py:finish():199] Joined network monitor
+2023-03-24 16:37:08,487 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,487 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-24 16:37:08,487 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 3
+2023-03-24 16:37:08,488 DEBUG   SenderThread:15172 [sender.py:send():336] send: stats
+2023-03-24 16:37:08,488 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,488 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-24 16:37:08,488 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,488 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-24 16:37:08,489 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 4
+2023-03-24 16:37:08,489 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,489 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-24 16:37:08,489 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,489 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-24 16:37:08,489 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 5
+2023-03-24 16:37:08,489 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,489 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-24 16:37:08,490 DEBUG   SenderThread:15172 [sender.py:send():336] send: summary
+2023-03-24 16:37:08,490 INFO    SenderThread:15172 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-24 16:37:08,490 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,491 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-24 16:37:08,491 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 6
+2023-03-24 16:37:08,491 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,491 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-24 16:37:08,491 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,491 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-24 16:37:08,497 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: status_report
+2023-03-24 16:37:08,737 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 7
+2023-03-24 16:37:08,737 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:08,737 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-24 16:37:08,738 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:08,738 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-24 16:37:09,184 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-summary.json
+2023-03-24 16:37:09,184 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/config.yaml
+2023-03-24 16:37:09,410 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-24 16:37:10,185 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/output.log
+2023-03-24 16:37:10,422 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 8
+2023-03-24 16:37:10,422 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: poll_exit
+2023-03-24 16:37:10,423 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:10,423 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-24 16:37:10,424 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:10,424 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-24 16:37:10,424 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 9
+2023-03-24 16:37:10,425 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:10,425 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-24 16:37:10,425 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:10,425 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-24 16:37:10,425 INFO    SenderThread:15172 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-24 16:37:11,185 INFO    Thread-13 :15172 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/output.log
+2023-03-24 16:37:11,186 INFO    SenderThread:15172 [dir_watcher.py:finish():395] scan: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files
+2023-03-24 16:37:11,186 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/output.log output.log
+2023-03-24 16:37:11,187 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/requirements.txt requirements.txt
+2023-03-24 16:37:11,187 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-metadata.json wandb-metadata.json
+2023-03-24 16:37:11,187 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-summary.json wandb-summary.json
+2023-03-24 16:37:11,193 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/config.yaml config.yaml
+2023-03-24 16:37:11,205 INFO    SenderThread:15172 [dir_watcher.py:finish():409] scan save: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/conda-environment.yaml conda-environment.yaml
+2023-03-24 16:37:11,205 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 10
+2023-03-24 16:37:11,211 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:11,211 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-24 16:37:11,218 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:11,219 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-24 16:37:11,219 INFO    SenderThread:15172 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-24 16:37:11,845 INFO    wandb-upload_3:15172 [upload_job.py:push():138] Uploaded file /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/config.yaml
+2023-03-24 16:37:11,882 INFO    wandb-upload_0:15172 [upload_job.py:push():138] Uploaded file /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/output.log
+2023-03-24 16:37:11,884 INFO    wandb-upload_1:15172 [upload_job.py:push():138] Uploaded file /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/requirements.txt
+2023-03-24 16:37:11,969 INFO    wandb-upload_2:15172 [upload_job.py:push():138] Uploaded file /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/wandb-summary.json
+2023-03-24 16:37:11,973 INFO    wandb-upload_4:15172 [upload_job.py:push():138] Uploaded file /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/files/conda-environment.yaml
+2023-03-24 16:37:12,173 INFO    Thread-12 :15172 [sender.py:transition_state():587] send defer: 11
+2023-03-24 16:37:12,174 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:12,174 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-24 16:37:12,174 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:12,175 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-24 16:37:12,175 INFO    SenderThread:15172 [file_pusher.py:join():169] waiting for file pusher
+2023-03-24 16:37:12,175 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 12
+2023-03-24 16:37:12,175 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:12,175 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-24 16:37:12,176 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:12,176 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-24 16:37:12,352 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 13
+2023-03-24 16:37:12,353 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:12,357 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-24 16:37:12,357 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:12,358 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-24 16:37:12,358 INFO    SenderThread:15172 [sender.py:transition_state():587] send defer: 14
+2023-03-24 16:37:12,359 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: defer
+2023-03-24 16:37:12,359 DEBUG   SenderThread:15172 [sender.py:send():336] send: final
+2023-03-24 16:37:12,359 INFO    HandlerThread:15172 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-24 16:37:12,359 DEBUG   SenderThread:15172 [sender.py:send():336] send: footer
+2023-03-24 16:37:12,359 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: defer
+2023-03-24 16:37:12,359 INFO    SenderThread:15172 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-24 16:37:12,360 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-24 16:37:12,361 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: poll_exit
+2023-03-24 16:37:12,361 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: server_info
+2023-03-24 16:37:12,362 DEBUG   SenderThread:15172 [sender.py:send_request():363] send_request: server_info
+2023-03-24 16:37:12,367 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-24 16:37:12,367 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-24 16:37:12,728 INFO    MainThread:15172 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-24 16:37:12,729 INFO    MainThread:15172 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-24 16:37:12,729 INFO    MainThread:15172 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-24 16:37:12,729 DEBUG   HandlerThread:15172 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-24 16:37:12,730 INFO    HandlerThread:15172 [handler.py:finish():842] shutting down handler
+2023-03-24 16:37:13,362 INFO    WriterThread:15172 [datastore.py:close():298] close: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/wandb/run-20230324_163701-hspwuftu/run-hspwuftu.wandb
+2023-03-24 16:37:13,728 INFO    SenderThread:15172 [sender.py:finish():1504] shutting down sender
+2023-03-24 16:37:13,728 INFO    SenderThread:15172 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-24 16:37:13,728 INFO    SenderThread:15172 [file_pusher.py:join():169] waiting for file pusher

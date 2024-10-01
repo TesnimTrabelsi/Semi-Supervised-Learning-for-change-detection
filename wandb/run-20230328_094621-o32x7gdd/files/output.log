@@ -1,0 +1,41 @@
+╒═══════════════════╤════════════════════╕
+│ run config name   │                    │
+╞═══════════════════╪════════════════════╡
+│ CONFIG_NAME       │ dtsiamese_ssl_test │
+├───────────────────┼────────────────────┤
+│ device            │ cuda               │
+├───────────────────┼────────────────────┤
+│ epochs            │ 200                │
+├───────────────────┼────────────────────┤
+│ learning rate     │ 0.0001             │
+├───────────────────┼────────────────────┤
+│ batch size        │ 8                  │
+╘═══════════════════╧════════════════════╛
+Dataset with 5900 samples.
+Starting epoch 1/200.
+Traceback (most recent call last):
+  File "train_semisupervised_dualtask.py", line 197, in <module>
+    run_training(cfg)
+  File "train_semisupervised_dualtask.py", line 65, in run_training
+    for i, batch in enumerate(dataloader):
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1347, in _next_data
+    return self._process_data(data)
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1373, in _process_data
+    data.reraise()
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/antonimestre/anaconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/antonimestre/Documents/Tesnime/SiameseSSL-master/utils/datasets.py", line 136, in __getitem__
+    indices = sorted(np.random.randint(0, len(timestamps), size=2))
+  File "mtrand.pyx", line 748, in numpy.random.mtrand.RandomState.randint
+  File "_bounded_integers.pyx", line 1247, in numpy.random._bounded_integers._rand_int64
+ValueError: high <= 0

@@ -1,0 +1,144 @@
+wandb_version: 1
+
+AUGMENTATION:
+  desc: null
+  value:
+    COLOR_SHIFT: false
+    CROP_SIZE: 256
+    GAMMA_CORRECTION: false
+    IMAGE_OVERSAMPLING_TYPE: importance
+    RANDOM_FLIP: true
+    RANDOM_ROTATE: true
+AUGMENTATIONS:
+  desc: null
+  value: {}
+CONFIG_DIR:
+  desc: null
+  value: config/
+CONSISTENCY_TRAINER:
+  desc: null
+  value:
+    LOSS_FACTOR: 0.1
+    LOSS_TYPE: PowerJaccardLoss
+    WEIGHT_DECAY: 0.998
+DATALOADER:
+  desc: null
+  value:
+    INCLUDE_ALPHA: false
+    INCLUDE_BUILDING_LABELS: true
+    INCLUDE_UNLABELED: true
+    INCLUDE_UNLABELED_VALIDATION: false
+    MODE: all
+    NUM_WORKER: 2
+    SHUFFLE: true
+    TRAINING_MULTIPLIER: 100
+DATASET:
+  desc: null
+  value:
+    TEST_IDS:
+    - L15-0357E-1223N_1429_3296_13
+    - L15-0457E-1135N_1831_3648_13
+    - L15-0566E-1185N_2265_3451_13
+    - L15-0571E-1075N_2287_3888_13
+    - L15-1209E-1113N_4838_3737_13
+    - L15-1210E-1025N_4840_4088_13
+    - L15-1276E-1107N_5105_3761_13
+    - L15-1479E-1101N_5916_3785_13
+    - L15-1669E-1160N_6678_3548_13
+    - L15-1672E-1207N_6691_3363_13
+    - L15-1690E-1211N_6763_3346_13
+    - L15-1703E-1219N_6813_3313_13
+    TRAINING_IDS:
+    - sn7_train_source_L15-0331E-1257N_1327_3160_13_2018_01
+    - sn7_train_source_L15-0331E-1257N_1327_3160_13_2018_02
+    - sn7_train_source_L15-0331E-1257N_1327_3160_13_2018_03
+    UNLABELED_IDS: []
+    VALIDATION_IDS:
+    - L15-0358E-1220N_1433_3310_13
+    - L15-0487E-1246N_1950_3207_13
+    - L15-0506E-1204N_2027_3374_13
+    - L15-0924E-1108N_3699_3757_13
+    - L15-1049E-1370N_4196_2710_13
+    - L15-1203E-1203N_4815_3378_13
+    - L15-1298E-1322N_5193_2903_13
+    - L15-1538E-1163N_6154_3539_13
+    - L15-1669E-1160N_6679_3549_13
+DATASETS:
+  desc: null
+  value: {}
+DEBUG:
+  desc: null
+  value: false
+INFERENCE_CHECKPOINT:
+  desc: null
+  value: 100
+LOG_FREQ:
+  desc: null
+  value: 100
+MODEL:
+  desc: null
+  value:
+    ENABLE_SEMANTIC_CHANGE_LOSS: true
+    IN_CHANNELS: 3
+    LOSS_TYPE: PowerJaccardLoss
+    NEGATIVE_WEIGHT: 1
+    OUT_CHANNELS: 1
+    POSITIVE_WEIGHT: 250
+    TOPOLOGY:
+    - 64
+    - 128
+    - 256
+    - 512
+    TYPE: dtsiameseunet
+NAME:
+  desc: null
+  value: dtsiamese_ssl_test
+PATHS:
+  desc: null
+  value:
+    DATASET: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7
+    OUTPUT: /home/antonimestre/Documents/Tesnime/SiameseSSL-master/SpaceNet7/output
+    ROOT: /home/antonimestre/Documents/Tesnime/SiameseSSL-master
+SAVE_CHECKPOINTS:
+  desc: null
+  value:
+  - 100
+  - 150
+  - 200
+SEED:
+  desc: null
+  value: 7
+TRAINER:
+  desc: null
+  value:
+    BATCH_SIZE: 8
+    EPOCHS: 200
+    LR: 0.0001
+    OPTIMIZER: adamw
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.8
+    start_time: 1679675680.068155
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 13
+      - 15
+      - 16
+      - 23
+      4: 3.8.8
+      5: 0.14.0
+      8:
+      - 5
